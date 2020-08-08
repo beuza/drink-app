@@ -1,0 +1,31 @@
+{%  extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Berlin</h1>
+    </div>
+    <!-- Todo Anzahl muss noch durch den DB eintrag ersetzt werden -->
+    <h5> Du darfst 2 Schlücke verteilen</h5>
+
+    <!-- TODO in Javascript noch clicks == 2 mit Summe der aktuellen Schlücke setzen-->
+    <script type="text/javascript">
+    var clicks = 0;
+    function onClick() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+        if (clicks == 2) {
+        clicks = 0;
+        }
+    };
+    </script>
+
+    <!-- Todo clicks muss noch auf persönliche Schlücke umgemünzt werden -->
+    <button type="button" class="btn btn-primary btn-block" onclick="onClick()">KW <a id="clicks">0</a> </button>
+    <button type="button" class="btn btn-primary btn-block" onclick="onClick()">Lobin <a id="clicks">0</a> </button>
+    <button type="button" class="btn btn-primary btn-block" onclick="onClick()">WWF <a id="clicks">0</a> </button>
+    <button type="button" class="btn btn-primary btn-block" onclick="onClick()"># <a id="clicks">0</a> </button>
+    <div style="text-align:center;">
+    <a  type="button" class="btn btn-secondary" href="/"> Speichern </a>
+    </div>
+</div>
+{% endblock %}

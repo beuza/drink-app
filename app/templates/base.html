@@ -1,0 +1,50 @@
+{% block doc -%}
+<!DOCTYPE html>
+<html{% block html_attribs %}{% endblock html_attribs %}>
+{%- block html %}
+  <head>
+    {%- block head %}
+    <title> Hackedichtpokal </title>
+
+    {%- block metas %}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {%- endblock metas %}
+
+    {%- block styles %}
+    <!-- Bootstrap -->
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/slate/bootstrap.min.css" rel="stylesheet" type="text/css">
+    {%- endblock styles %}
+    {%- endblock head %}
+  </head>
+  <body{% block body_attribs %}{% endblock body_attribs %}>
+    {% block body -%}
+<div class="navbar navbar-inverse" role="navigation" >
+    <div class="container">
+        <div class = "navbar-header">
+            <a class="navbar-brand" href="/">Hackedichtpokal</a>
+        </div>
+
+    </div>
+</div>
+    {% block content -%}
+        <div class="container">
+            {% for message in get_flashed_messages() %}
+        <div class="alert alert-warning">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            {{  message }}
+        </div>
+        {% endfor %}
+
+        {% block page_content %} {% endblock %}
+        </div>
+    {%- endblock content %}
+
+    {% block scripts %}
+    <script src="{{bootstrap_find_resource('jquery.js', cdn='jquery')}}"></script>
+    <script src="{{bootstrap_find_resource('js/bootstrap.js', cdn='bootstrap')}}"></script>
+    {%- endblock scripts %}
+    {%- endblock body %}
+  </body>
+{%- endblock html %}
+</html>
+{% endblock doc -%}

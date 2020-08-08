@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e06f0300-fe23-442a-babd-14cd2aabf814" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Flask Main" />
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XcfbEa28FfJ6K5EbC5u1LdYNjA" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/beuza/App-Test" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="App-Test" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="App-Test" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sebii\PycharmProjects\App-Test\app" />
+      <recent name="C:\Users\sebii\PycharmProjects\App-Test" />
+      <recent name="C:\Users\sebii\PycharmProjects\App-Test\static\js" />
+      <recent name="C:\Users\sebii\PycharmProjects\App-Test\templates" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sebii\PycharmProjects\App-Test\static\js" />
+      <recent name="C:\Users\sebii\PycharmProjects\App-Test\static\css_" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Flask server.Flask (app/app.py)">
+    <configuration name="flasky" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="App-Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/flasky.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="App-Test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\sebii\PycharmProjects\App-Test\tests\test_basics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="App-Test" type="Python.FlaskServer">
+      <module name="App-Test" />
+      <option name="target" value="$PROJECT_DIR$/app/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Flask (app/app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+      <module name="App-Test" />
+      <option name="target" value="$PROJECT_DIR$/app/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flask server.Flask (app/app.py)" />
+        <item itemvalue="Python.flasky" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e06f0300-fe23-442a-babd-14cd2aabf814" name="Default Changelist" comment="" />
+      <created>1581350372098</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581350372098</updated>
+      <workItem from="1581350373494" duration="957000" />
+      <workItem from="1581351466397" duration="7005000" />
+      <workItem from="1581940865867" duration="6132000" />
+      <workItem from="1582738137072" duration="9428000" />
+      <workItem from="1584194929648" duration="238000" />
+      <workItem from="1584195451288" duration="896000" />
+      <workItem from="1584197874032" duration="2929000" />
+      <workItem from="1584267697440" duration="3157000" />
+      <workItem from="1584620467368" duration="8425000" />
+      <workItem from="1584636829038" duration="3556000" />
+      <workItem from="1584988696961" duration="1309000" />
+      <workItem from="1585033050771" duration="347000" />
+      <workItem from="1585135790780" duration="56000" />
+      <workItem from="1585136048003" duration="10170000" />
+      <workItem from="1585739961489" duration="4069000" />
+      <workItem from="1585818212722" duration="242000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1877" height="224" key="GridCell.Tab.0.bottom" timestamp="1585146477737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.0.bottom/-4656.0.1368.892/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585146477737" />
+    <state width="1326" height="224" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1585144614960" />
+    <state width="1877" height="224" key="GridCell.Tab.0.center" timestamp="1585146477737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.0.center/-4656.0.1368.892/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585146477737" />
+    <state width="1326" height="224" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1585144614959" />
+    <state width="1877" height="224" key="GridCell.Tab.0.left" timestamp="1585146477737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.0.left/-4656.0.1368.892/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585146477737" />
+    <state width="1326" height="224" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1585144614958" />
+    <state width="1877" height="224" key="GridCell.Tab.0.right" timestamp="1585146477737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.0.right/-4656.0.1368.892/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1585146477737" />
+    <state width="1326" height="224" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1585144614959" />
+    <state x="186" y="79" key="SettingsEditor" timestamp="1585144925620">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="186" y="79" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1585144925620" />
+    <state x="380" y="261" key="com.intellij.ide.util.TipDialog" timestamp="1585144622460">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="380" y="261" key="com.intellij.ide.util.TipDialog/0.0.1368.872@0.0.1368.872" timestamp="1585144622460" />
+    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup" timestamp="1585144631717">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="347" y="184" width="672" height="678" key="search.everywhere.popup/0.0.1368.872@0.0.1368.872" timestamp="1585144631717" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/App_Test$test.coverage" NAME="test Coverage Results" MODIFIED="1584270618126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/App_Test$Flask__app_app_py_.coverage" NAME="Flask (app/app.py) Coverage Results" MODIFIED="1585743867444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/App_Test$App_Test.coverage" NAME="App-Test Coverage Results" MODIFIED="1585145432214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/App_Test$flasky.coverage" NAME="flasky Coverage Results" MODIFIED="1584621770947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

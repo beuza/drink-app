@@ -1,0 +1,40 @@
+{%  extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Berlin</h1>
+    </div>
+
+    <!-- TODO in Javascript noch starttime mit DB syncen-->
+    <script type="text/javascript">
+    var starttime = new Date();
+    function calculateTime() {
+        tmp_time = new Date();
+        if(tmp_time.getHours()==starttime.getHours()) {
+            resttime = 60 - (tmp_time.getMinutes() - starttime.getMinutes());
+        }else{
+            resttime = 60 - (60-starttime.getMinutes()+tmp_time.getMinutes());
+        }
+        document.getElementById("resttime").innerHTML = resttime;
+        if (resttime < 0) {
+        resttime = 0;
+        }
+    };
+    </script>
+
+    <!-- Todo DB-Anfrage hier noch einfügen -->
+<div class="card text-white bg-success mb-3">
+  <div class="card-body">
+    <h4 class="card-title">Glückwunsch</h4>
+    <p class="card-text">Du darfst 2 Halbe vernichten.</p>
+  </div>
+</div>
+    <h1> Restzeit</h1>
+    <h1> <a id="resttime">60</a> Minuten </h1>
+<!-- Testbutton falls Timer getestet werden soll    <button onclick="calculateTime()">Test Time</button> -->
+    <div style="text-align:center;">
+
+    <a  type="button" class="btn btn-secondary" href="/give-slugs"> Erledigt </a>
+    </div>
+</div>
+{% endblock %}

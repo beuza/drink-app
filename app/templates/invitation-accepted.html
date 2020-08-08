@@ -1,0 +1,20 @@
+{%  extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>Berlin</h1>
+    </div>
+<!-- Todo Name in Einladung + Spitznamen in DB integrieren -->
+    <div class="active">
+    Hias hat dich zum Event Berlin eingeladen.
+</div>
+
+<div class="form-group">
+  <label class="col-form-label" for="inputDefault">Spitzname</label>
+  <input type="text" class="form-control" placeholder="Spitzname eingeben" id="inputDefault">
+</div>
+
+    <div style="text-align:center;">
+    <a type="button" class="btn btn-secondary" href="/"> Fertig</a>
+    </div>
+{% endblock %}
