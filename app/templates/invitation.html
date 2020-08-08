@@ -2,20 +2,25 @@
 {% block content %}
 <div class="container">
     <div class="page-header">
-        <h1>Berlin</h1>
+        <h5>Du wurdest zu einem Hackedichtpokal-Event eingeladen!</h5>
     </div>
 <div class="active">
-    Verschicke diesen Link an alle Teilnehmer.
+    Gebe hier deinen Einladunglink ein.
 </div>
 
-    <!-- Todo Link generieren -->
-    <p> Link: </p>
+    <form method="post" action="/">
+        <p>
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Einladungslink eingeben" id="link" name="link" required>
+            </div>
 
-    <!-- Todo kopier Icon mit backend programmieren -->
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Saufname eingeben" id="user_name" name="user_name" required>
+            </div>
 
-
-
-    <div style="text-align:center;">
-    <a type="button" class="btn btn-secondary" href="/"> Fertig</a>
-    </div>
+            <div style="text-align:center;">
+                <a><input type="submit" class="btn btn-secondary" value="Ab zum saufen!"></a>
+            </div>
+        </p>
+    </form>
 {% endblock %}

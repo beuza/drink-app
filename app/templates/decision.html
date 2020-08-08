@@ -2,28 +2,33 @@
 {% block content %}
 <div class="container">
     <div class="page-header">
-        <h1>Berlin</h1>
+        <h1>{{ event_name[0] }}</h1>
     </div>
 
-    <p>KW</p>
-    <div class="progressbar">
-      <div class="progress progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">4 Votes</div>
+    {% for i in range(amount_of_user) %}
+        <p>{{ event_users[i] }}</p>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: {{ (votes[i]*100)/amount_of_user }}%" aria-valuenow={{ (votes[i]*100)/amount_of_user }} aria-valuemin="0" aria-valuemax="100">{{ votes[i] }} Votes</div>
+        </div>
+    {% endfor %}
+
     </div>
-    <p>Lobin</p>
-    <div class="progress">
-      <div class="progress-bar bg-info" role="progressbar" style="width: 75%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">3 Votes</div>
-    </div>
-    <p>Hias</p>
-    <div class="progress">
-      <div class="progress-bar bg-warning" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">2 Votes</div>
-    </div>
-    <p>Sepp</p>
-    <div class="progress">
-    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">1 Votes</div>
-    </div>
-    </div>
-    <div style="text-align:center;">
-    <!-- TODO Button Schlücke verteilen nur anzeigen wenn wirklich Schlücke verteilt werden-->
-    <a  type="button" class="btn btn-secondary" href="/give-slugs"> Schlücke verteilen</a
-    </div>
+
+    {% if ownVote==1 %}
+        <p> Sauber Burschi</p>
+        <div style="text-align:center;">
+        <a  type="button" class="btn btn-secondary" href={{ link }}> Schlücke verteilen</a>
+        </div>
+    {% elif ownVote==2 %}
+        <p> Sauber Burschi aber du hast deine Schlücke schon verteilt</p>
+        <div style="text-align:center;">
+        <a  type="button" class="btn btn-secondary" href="/"> Zruck</a>
+        </div>
+    {% else %}
+        <p> Du hast sauber daneben glangt. </p>
+        <div style="text-align:center;">
+        <a  type="button" class="btn btn-secondary" href="/"> Zruck</a>
+        </div>
+    {% endif %}
+
 {% endblock %}

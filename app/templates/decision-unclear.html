@@ -2,24 +2,34 @@
 {% block content %}
 <p class="container">
     <div class="page-header">
-        <h1>Berlin</h1>
+        <h1>{{ event_name[0] }}</h1>
     </div>
-<div class="active">
-    Es haben noch nicht alle Teilnehmer abgestimmt!
-</div>
-    <!-- Todo DB Abfrage noch einbauen -->
-<div class="container">
-    <h5>KW <span class="badge badge-pill badge-success">Abgestimmt</span> </h5>
-</div>
-<div class="container">
-    <h5>WWF <span class="badge badge-pill badge-success">Abgestimmt</span> </h5>
-</div>
-<div class="container">
-    <h5>Lobin <span class="badge badge-pill badge-success">Abgestimmt</span> </h5>
-</div>
-<div class="container">
-    <h5>Broman <span class="badge badge-pill badge-danger">Is noch zu besoffen</span> </h5>
-</div>
+
+
+    {% if isclosed==1 %}
+        <div class="active">
+           Jeder hat abgestimmt!
+        </div>
+    {% else %}
+        <div class="active">
+            Es haben noch nicht alle Teilnehmer abgestimmt!
+        </div>
+    {% endif %}
+
+    {% for i in range(amount_of_user) %}
+        <div class="container">
+            <h5> {{ event_users[i] }}
+                {% if checkVoteList[i] == 1 or isclosed==1 %}
+                    <span class="badge badge-pill badge-success">Abgestimmt</span>
+                {% else %}
+                    <span class="badge badge-pill badge-danger">Is noch zu besoffen</span>
+                {% endif %}</h5>
+        </div>
+    {% endfor %}
+
+    {% if isclosed==1 %}
+        Ihr könnt ab 8 Uhr morgens euren Gewinner bestimmen. Bis dahin gut Spritt!
+    {% endif %}
 
     <div style="text-align:center;">
     <a type="button" class="btn btn-secondary" href="/"> Back</a>

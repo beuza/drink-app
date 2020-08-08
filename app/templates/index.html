@@ -1,36 +1,37 @@
 {%  extends "base.html" %}
 
 {% block content %}
-    <div class="list-group-item">
-<div class="card border-info border-block mb-3">
-<a href="/event" class="list-group-item-action flex-column align-items-start active">
-  <div class="card-header">Berlin</div>
-  <div class="card-body">
-    <p class="card-text">Keine Ahnung was hier steht</p>
-  </div>
-</a>
-</div>
-</div>
+    {% if flash_index=="slugs" %}
+        <div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Sauber!</strong> Du hast deine Schlücke verteilt.
+        </div>
+    {% elif flash_index=="vote" %}
+        <div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Sauber!</strong> Du hast abgestimmt.
+        </div>
+    {% elif flash_index=="getintoEvent" %}
+        <div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">&times;</button>
+            <strong>Sauber!</strong> Du kannst beim Event mitsaufen.
+        </div>
+    {% endif %}
 
-<div class="list-group">
-<div class="card border-info border-block mb-3">
-    <a href="/event" class="list-group-item-action flex-column align-items-start active">
-  <div class="card-body">
-      <h4> Prag</h4>
-    <p class="card-text">Aktuelle oder bevorstehende Aktionen in blau</p>
-  </div>
+    {% for i in range(amount_of_events) %}
+        <div class="list-group">
+            <div class="card border-info border-block mb-3">
+                <a href="{{  url_for('event', event_id=event_IDs[i], _external=True) }}" class="list-group-item-action flex-column align-items-start active">
+                    <div class="card-body">
+                            <h4> {{ event_names[i] }}</h4>
+                            <p class="card-text">Aktuelle oder bevorstehende Aktionen in blau</p>
+                    </div>
+                </a>
+                <a href="{{  url_for('swigsoverview', event_id=event_IDs[i], _external=True) }}">
+                    <button type="button" class="btn btn-block btn-outline-success">Schlücke</button>
+                </a>
+            </div>
+        </div>
+    {% endfor %}
 
-        </a>
-</div>
-    </div>
-
-
-<div class="card border-light border-block mb-3">
-    <a href="/event" class="card-item-action flex-column align-items-start active">
-  <div class="card-header">Brombachsee</div>
-  <div class="card-body">
-    <p class="card-text">Vergangene Aktion in dem grau</p>
-  </div>
-    </a>
-</div>
 {% endblock %}

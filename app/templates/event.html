@@ -1,24 +1,31 @@
 {%  extends "base.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
 {% block content %}
 <div class="container">
     <div class="page-header">
-        <h1>Berlin</h1>
+        <h1> {{ event_name[0] }}</h1>
     </div>
 <div class="active">
-    Wen wählst du beim Hackedichtpokal?
+    {% if state=='voting' %}
+        Wer hat deiner Meinung nach den Hackedichtpokal gewonnen?
+    {% else %}
+        Auf wen wettest du beim Hackedichtpokal?
+    {% endif %}
 </div>
+<form method="post" action="/">
+<p>
     <div class="btn-group-vertical btn-group-toogle btn-block" data-toggle="buttons">
+        {% for i in range(amount_of_user) %}
         <label class="btn btn-primary btn-block">
-            <input type="radio" name="options" id="spritti_1" autocomplete="off"> KW
+            <input type="radio" name="vote" id= "{{ user_id[i] }}" value= "{{ user_id[i] }}" autocomplete="off">  {{ event_users[i] }}
         </label>
-        <label class="btn btn-primary btn-block">
-            <input type="radio" name="options" id="spritti_2" autocomplete="off"> WWF
-        </label>
-        <label class="btn btn-primary btn-block">
-            <input type="radio" name="options" id="spritti_3" autocomplete="off"> Lobin
-        </label>
+        {% endfor %}
+<input type="hidden" name="event_id" value=" {{ event_id }} ">
     </div>
-    <div style="text-align:center;">
-    <a type="button" class="btn btn-secondary" href="/"> Save</a>
+<div style="text-align:center;">
+    <a><input type="submit" class="btn btn-secondary" value="Next"></a>
+</div>
+</p>
+</form>
 </div>
 {% endblock %}

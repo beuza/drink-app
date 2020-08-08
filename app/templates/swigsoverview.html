@@ -1,0 +1,24 @@
+{%  extends "base.html" %}
+{% block content %}
+<div class="container">
+    <div class="page-header">
+        <h1>{{ event_name[0] }}</h1>
+    </div>
+
+    {% for i in range(amount_of_user) %}
+        <p>{{ event_users[i] }} (4 offene Schlücke von insgesamt {{ swigs[i] }})
+        <button type="button" class="btn btn-success btn-sm">+</button>
+        <button type="button" class="btn btn-danger btn-sm">-</button>
+        </p>
+        <div class="progress">
+            <div class="progress-bar bg-success" role="progressbar" style="width: {{ (swigs[i]*100)/amount_of_user }}%" aria-valuenow={{ (swigs[i]*100)/amount_of_user }} aria-valuemin="0" aria-valuemax="100">{{ swigs[i] }} Votes</div>
+        </div>
+    {% endfor %}
+
+    </div>
+
+        <div style="text-align:center;">
+        <a  type="button" class="btn btn-secondary" href="/"> Zruck</a>
+        </div>
+
+{% endblock %}

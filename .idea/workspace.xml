@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e06f0300-fe23-442a-babd-14cd2aabf814" name="Default Changelist" comment="" />
+    <list default="true" id="e06f0300-fe23-442a-babd-14cd2aabf814" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/templates/link-to-HP.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/swigsoverview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/db_communication.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/db_communication.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/create-HP.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/create-HP.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/decision.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/decision.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/give-slugs.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/give-slugs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/templates/invitation.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/invitation.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +28,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XcfbEa28FfJ6K5EbC5u1LdYNjA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -26,9 +41,15 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/beuza/App-Test" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -41,15 +62,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sebii\PycharmProjects\App-Test\static\js" />
+      <recent name="C:\Users\sebii\PycharmProjects\App-Test\static\css_" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\sebii\PycharmProjects\App-Test\app" />
       <recent name="C:\Users\sebii\PycharmProjects\App-Test" />
       <recent name="C:\Users\sebii\PycharmProjects\App-Test\static\js" />
       <recent name="C:\Users\sebii\PycharmProjects\App-Test\templates" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\sebii\PycharmProjects\App-Test\static\js" />
-      <recent name="C:\Users\sebii\PycharmProjects\App-Test\static\css_" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,12 +193,54 @@
       <workItem from="1585135790780" duration="56000" />
       <workItem from="1585136048003" duration="10170000" />
       <workItem from="1585739961489" duration="4069000" />
-      <workItem from="1585818212722" duration="242000" />
+      <workItem from="1585818459111" duration="664000" />
+      <workItem from="1585834610966" duration="2113000" />
+      <workItem from="1585998018849" duration="8260000" />
+      <workItem from="1586328569776" duration="28651000" />
+      <workItem from="1586456678308" duration="292000" />
+      <workItem from="1586778607747" duration="10812000" />
+      <workItem from="1586926051864" duration="5234000" />
+      <workItem from="1586937523898" duration="11823000" />
+      <workItem from="1587466870084" duration="2367000" />
+      <workItem from="1587486681437" duration="4797000" />
+      <workItem from="1587491914879" duration="243000" />
+      <workItem from="1587644414248" duration="10238000" />
+      <workItem from="1588082472456" duration="6834000" />
+      <workItem from="1588258021466" duration="7842000" />
+      <workItem from="1588326068627" duration="10217000" />
+      <workItem from="1588750599124" duration="1052000" />
+      <workItem from="1588854637008" duration="12525000" />
+      <workItem from="1589383369304" duration="1473000" />
+      <workItem from="1589469896674" duration="3742000" />
+      <workItem from="1589635300703" duration="4333000" />
+      <workItem from="1589971165331" duration="8883000" />
+      <workItem from="1589982069816" duration="613000" />
+      <workItem from="1591027235426" duration="339000" />
+      <workItem from="1591028235168" duration="2655000" />
+      <workItem from="1591169968283" duration="2301000" />
+      <workItem from="1591341460585" duration="5238000" />
+      <workItem from="1592999566886" duration="5809000" />
+      <workItem from="1595400159178" duration="17130000" />
+      <workItem from="1595432611450" duration="602000" />
+      <workItem from="1596874491274" duration="1095000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="224" key="GridCell.Tab.0.bottom" timestamp="1585146477737">
@@ -215,8 +278,9 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/App_Test$test.coverage" NAME="test Coverage Results" MODIFIED="1584270618126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/App_Test$Flask__app_app_py_.coverage" NAME="Flask (app/app.py) Coverage Results" MODIFIED="1585743867444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/App_Test$Flask__app_app_py_.coverage" NAME="Flask (app/app.py) Coverage Results" MODIFIED="1596874554426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/App_Test$App_Test.coverage" NAME="App-Test Coverage Results" MODIFIED="1585145432214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/drink_app$Flask__app_app_py_.coverage" NAME="Flask (app/app.py) Coverage Results" MODIFIED="1596876133779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/App_Test$flasky.coverage" NAME="flasky Coverage Results" MODIFIED="1584621770947" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
